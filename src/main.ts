@@ -183,7 +183,6 @@ const projects: Project[] = [
     desc: "ระบบ OCR อัตโนมัติสำหรับอ่านเอกสาร (PAN/WAN) และแปลงเป็นข้อมูลดิจิทัล ด้วย Computer Vision",
     tags: ["Python", "OCR", "Computer Vision", "AI"],
     emoji: "📝",
-    image: "./assets/projects/autoform.png",
   },
   {
     title: "CountD With You",
@@ -197,14 +196,6 @@ const projects: Project[] = [
     desc: "ระบบ Point of Sale สำหรับร้านค้าจริง พร้อม Price Logic, Multi-price Types, Payments และ Reports",
     tags: ["React", "Node.js", "PostgreSQL", "POS"],
     emoji: "🛒",
-    image: "./assets/projects/pos.png",
-  },
-  {
-    title: "Coffee Life",
-    desc: "เว็บแอพสำหรับคอกาแฟ ค้นหาร้านกาแฟ รีวิว และแชร์ประสบการณ์",
-    tags: ["HTML", "CSS", "JavaScript"],
-    emoji: "☕",
-    image: "./assets/projects/coffeelife.png",
   },
 ];
 
