@@ -20,6 +20,7 @@ const skills = [
     desc: "Google AI Studio, NotebookLM, ElevenLabs",
   },
   { icon: "🌐", name: "React / Next.js", desc: "Frontend Web Applications" },
+  { icon: "📱", name: "React Native", desc: "Cross-Platform Mobile Apps" },
   { icon: "⚡", name: "Node.js / NestJS", desc: "Backend API & Microservices" },
   { icon: "🔧", name: "Express / PHP", desc: "Server-side Development" },
   {
@@ -35,6 +36,21 @@ const skills = [
     icon: "🎨",
     name: "UI Frameworks",
     desc: "Tailwind, Ant Design, Bootstrap",
+  },
+  {
+    icon: "💳",
+    name: "Stripe",
+    desc: "Payment Integration, Subscription, Checkout",
+  },
+  {
+    icon: "⚡",
+    name: "Zed",
+    desc: "Modern High-Performance Code Editor",
+  },
+  {
+    icon: "🐶",
+    name: "Bruno",
+    desc: "API Client & Collection Management",
   },
 ];
 
@@ -165,6 +181,13 @@ const projects: Project[] = [
     image: "./assets/autopost/autopost-01.png",
   },
   {
+    title: "n8n Facebook Auto Post",
+    desc: "ระบบ Automation โพสต์ Facebook อัตโนมัติด้วย n8n — รองรับ Video, Photo และ Caption ครบวงจร พร้อม Scheduling และ Multi-account Management",
+    tags: ["n8n", "Facebook API", "Automation", "Video", "Photo", "Scheduling"],
+    emoji: "📘",
+    image: "./assets/n8n/n8n-01facebook.png",
+  },
+  {
     title: "The Perfect Gift Finder",
     desc: "เว็บแอพ AI-powered ช่วยหาของขวัญให้คนพิเศษ — แค่บอกรายละเอียดและงบประมาณ AI จะแนะนำของขวัญที่เหมาะสมที่สุด พร้อม Multi-language (EN/TH)",
     tags: ["Next.js", "AI", "Generative AI", "Vercel"],
@@ -177,6 +200,20 @@ const projects: Project[] = [
     tags: ["Python", "Trading", "Pine Script", "Telegram Bot"],
     emoji: "💰",
     image: "./assets/tele/tele-01.png",
+  },
+  {
+    title: "News Summarizer & Auto Post Bot",
+    desc: "Telegram Bot ค้นหาข่าวตามคำสั่งผู้ใช้ → สรุปเนื้อหา → ค้นหาเพิ่มเติม → จัด Format → ส่งต่อให้ n8n Auto Post ครบวงจร",
+    tags: ["Python", "Telegram Bot", "AI", "News API", "n8n", "Auto Post"],
+    emoji: "📰",
+    image: "./assets/tele/tele-05-bot.png",
+  },
+  {
+    title: "AI Brand Video Generator",
+    desc: "ระบบสร้างวิดีโอจาก Prompt ด้วย AI Engine — สร้างสรรค์ภาพลักษณ์แบรนด์ที่เป็นเอกลักษณ์ ปั้น Brand Identity ผ่าน Visual Storytelling ที่ตรงเป้าหมาย",
+    tags: ["AI", "Video Generation", "Prompt Engineering", "Brand Identity", "Visual Storytelling"],
+    emoji: "🎬",
+    image: "./assets/projects/brand-video.png",
   },
   {
     title: "AutoForm (OCR)",
@@ -239,6 +276,17 @@ const galleryImages: GalleryImage[] = [
     caption: "AutoPost — Facebook Content (Billokey Promotion)",
     category: "autopost",
   },
+  // Facebook Auto Post (n8n)
+  {
+    src: "./assets/n8n/n8n-01facebook.png",
+    caption: "n8n Facebook Auto Post — Workflow Overview",
+    category: "autopost",
+  },
+  {
+    src: "./assets/n8n/n8n-04facebook.png",
+    caption: "n8n Facebook Auto Post — Video & Photo Upload Flow",
+    category: "autopost",
+  },
   // Telegram Bots
   {
     src: "./assets/tele/tele-01.png",
@@ -258,6 +306,11 @@ const galleryImages: GalleryImage[] = [
   {
     src: "./assets/tele/tele-04.png",
     caption: "Telegram Bot — Analysis & Alerts",
+    category: "telegram",
+  },
+  {
+    src: "./assets/tele/tele-05-bot.png",
+    caption: "News Summarizer Bot — ค้นหา สรุป จัด Format ส่ง n8n Auto Post",
     category: "telegram",
   },
 ];
